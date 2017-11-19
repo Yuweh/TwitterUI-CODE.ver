@@ -8,20 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		90F1B1001FC0720000972BB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F1B0FF1FC0720000972BB3 /* AppDelegate.swift */; };
-		90F1B1021FC0720000972BB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F1B1011FC0720000972BB3 /* ViewController.swift */; };
-		90F1B1051FC0720000972BB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F1B1031FC0720000972BB3 /* Main.storyboard */; };
 		90F1B1071FC0720000972BB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90F1B1061FC0720000972BB3 /* Assets.xcassets */; };
 		90F1B10A1FC0720000972BB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90F1B1081FC0720000972BB3 /* LaunchScreen.storyboard */; };
+		90F1B1121FC073E900972BB3 /* TwitterCVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F1B1111FC073E900972BB3 /* TwitterCVViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		90F1B0FC1FC0720000972BB3 /* TwitterUI-CODE.ver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TwitterUI-CODE.ver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F1B0FF1FC0720000972BB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		90F1B1011FC0720000972BB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		90F1B1041FC0720000972BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90F1B1061FC0720000972BB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90F1B1091FC0720000972BB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		90F1B10B1FC0720000972BB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90F1B1111FC073E900972BB3 /* TwitterCVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterCVViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				90F1B0FF1FC0720000972BB3 /* AppDelegate.swift */,
-				90F1B1011FC0720000972BB3 /* ViewController.swift */,
-				90F1B1031FC0720000972BB3 /* Main.storyboard */,
+				90F1B1111FC073E900972BB3 /* TwitterCVViewController.swift */,
 				90F1B1061FC0720000972BB3 /* Assets.xcassets */,
 				90F1B1081FC0720000972BB3 /* LaunchScreen.storyboard */,
 				90F1B10B1FC0720000972BB3 /* Info.plist */,
@@ -125,7 +122,6 @@
 			files = (
 				90F1B10A1FC0720000972BB3 /* LaunchScreen.storyboard in Resources */,
 				90F1B1071FC0720000972BB3 /* Assets.xcassets in Resources */,
-				90F1B1051FC0720000972BB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90F1B1021FC0720000972BB3 /* ViewController.swift in Sources */,
+				90F1B1121FC073E900972BB3 /* TwitterCVViewController.swift in Sources */,
 				90F1B1001FC0720000972BB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +140,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		90F1B1031FC0720000972BB3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90F1B1041FC0720000972BB3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		90F1B1081FC0720000972BB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
